@@ -1,6 +1,6 @@
 # Library Management System
 
-A full-stack Library Management System built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and Vite.
+A full-stack Library Management System built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
 ## Overview
 This application provides a complete library management solution with role-based access control (Admin and User/Student roles), book inventory management, and a borrow/return tracking system.
