@@ -65,9 +65,9 @@ const Dashboard = ({ user }) => {
         </div>
       )}
 
-      <h2>My Borrowed Books</h2>
+      <h2 className='borrow'>My Borrowed Books</h2>
       {borrows.length === 0 ? (
-        <p>You haven't borrowed any books yet.</p>
+        <p className='borrow-p'>You haven't borrowed any books yet.</p>
       ) : (
         <div className="borrow-list">
           {borrows.map((borrow) => (
