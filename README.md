@@ -70,7 +70,7 @@ JWT_SECRET=your_secret_key
 The application uses a startup script that runs both backend and frontend:
 
 - Backend runs on port 3000
-- Frontend runs on port 5000
+- Frontend runs on port 5173
 
 ### Default Credentials
 Register a new account with either:
@@ -109,7 +109,7 @@ Register a new account with either:
 
 ## Important Notes
 - MongoDB connection required - update `.env` with your connection string
-- Frontend configured to run on port 5000 (required for Replit)
+- Frontend configured to run on port 5173
 - Backend API runs on port 3000
 - CORS enabled for cross-origin requests
 - All passwords are hashed before storage
